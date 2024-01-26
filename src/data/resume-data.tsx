@@ -23,7 +23,7 @@ export const RESUME_DATA = {
   location: "Sydney, Australia",
   locationLink: "https://www.google.com/maps/place/Sydney",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "Full Stack Engineer focused on building products and solutions with extra attention to details",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
   avatarUrl: "https://avatars.githubusercontent.com/u/66828989?v=4",
@@ -38,7 +38,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/aimenhamed/",
+        url: "https://au.linkedin.com/in/aimen-hamed",
         icon: LinkedInIcon,
       },
     ],
@@ -89,6 +89,7 @@ export const RESUME_DATA = {
   skills: [
     "JavaScript",
     "TypeScript",
+    "Go",
     "React/Next.js",
     "Node.js",
     "AWS",
@@ -103,11 +104,10 @@ export const RESUME_DATA = {
         "Node.js",
         "Next.js",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "Your one-stop shop for UNSW course and elective reviews",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "unilectives.csesoc.app",
+        href: "https://unilectives.csesoc.app/",
       },
     },
     {
