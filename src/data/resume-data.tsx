@@ -1,19 +1,3 @@
-import ConsultlyLogo from "../images/logos/consultly.svg";
-import AmbitLogo from "../images/logos/ambit.png";
-import BarepapersLogo from "../images/logos/barepapers.svg";
-import BimLogo from "../images/logos/bim.png";
-import CDGOLogo from "../images/logos/cdgo.png";
-import ClevertechLogo from "../images/logos/clevertech.png";
-import EvercastLogo from "../images/logos/evercast.svg";
-import Howdy from "../images/logos/howdy.png";
-import JarockiMeLogo from "../images/logos/jarocki.svg";
-import JojoMobileLogo from "../images/logos/jojomobile.png";
-import MonitoLogo from "../images/logos/monito.svg";
-import MobileVikingsLogo from "../images/logos/mv.png";
-import ParabolLogo from "../images/logos/parabol.svg";
-import TastyCloudLogo from "../images/logos/tastycloud.png";
-import YearProgressLogo from "../images/logos/yearprogress.svg";
-import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 
@@ -25,7 +9,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Engineer focused on building products and solutions with extra attention to details",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "As a Full Stack Engineer, I have successfully contributed and taken multiple products from 0 to 1. I work with teams effectively, contributing to an environment where people do their best work. Currently, I work mostly with TypeScript, React, Node.js, Java and GraphQL. I have over 3 years of experience in building and designing solutions in various project.",
   avatarUrl: "https://avatars.githubusercontent.com/u/66828989?v=4",
   personalWebsiteUrl: "https://aimenhamed.vercel.app",
   contact: {
@@ -53,46 +37,56 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Atlassian",
+      link: "https://atlassian.com",
+      badges: ["Full Stack", "Jira", "AI"],
+      title: "Software Engineer",
+      start: "2024",
+      end: "",
+      description:
+        "Implementing new AI features for Jira, whilst iterating and maintaining the Jira issue view.",
+    },
+    {
       company: "Zip",
       link: "https://zip.co",
       badges: ["DevOps"],
       title: "Software Engineer (Platform)",
-      logo: ParabolLogo,
       start: "2023",
       end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Managed Kubernetes runtime and CI/CD pipelines for developers, introducing automation allowing devs to interface into platform components with security in mind. Designed and implemented solutions for cloud cost savings, service ownership and Docker image security.",
     },
     {
       company: "Atlassian",
       link: "https://atlassian.com",
-      badges: ["Internship"],
+      badges: ["Full Stack", "Reliability"],
       title: "Site Reliability Engineer Intern",
-      logo: ClevertechLogo,
       start: "2022",
       end: "2023",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Built send comms portal where every incident at Atlassian goes through to notify service owners and relevant parties about incidents.",
     },
     {
       company: "Optus",
       link: "https://optus.com.au/",
-      badges: ["Full time", "Internship"],
+      badges: ["Full Stack", "DevOps"],
       title: "Product Engineer Intern → Junior Software Engineer",
-      logo: JojoMobileLogo,
       start: "2021",
       end: "2022",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Built and iterated on features for MyOptus app products such as Optus Pause and Optus Eco. Contributed to managing deployments, environments and code infrastructure.",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
+    "Java",
     "Go",
+    "Python",
     "React/Next.js",
     "Node.js",
     "AWS",
+    "Kubernetes",
     "Terraform",
   ],
   projects: [
@@ -104,154 +98,50 @@ export const RESUME_DATA = {
         "Node.js",
         "Next.js",
       ],
-      description: "Your one-stop shop for UNSW course and elective reviews",
+      description: "Your one-stop shop for UNSW course and elective reviews.",
       link: {
-        label: "unilectives.csesoc.app",
+        label: "unilectives",
         href: "https://unilectives.csesoc.app/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "WatchTime",
+      techStack: ["Side project", "TypeScript", "React", "Next.js"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
+        "A centralised movie library to search any movie and see it's ratings and overview.",
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "watchtime",
+        href: "https://watchtime-chi.vercel.app/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "pj",
+      techStack: ["Side project", "Rust", "CLI"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "Developer project manager CLI tool to manage frequently accessed directories.",
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "pj",
+        href: "https://github.com/aimenhamed/pj",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+      title: "lss",
+      techStack: ["Side project", "Rust", "CLI"],
+      description: "A pretty format list CLI tool written in Rust",
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "lss",
+        href: "https://github.com/aimenhamed/lss",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "reqme",
+      techStack: ["Side project", "npm package", "TypeScript", "Node.js"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "A tool used to test your APIs locally using a simple interface, config stored as code.",
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "reqme",
+        href: "https://www.npmjs.com/package/reqme",
       },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
